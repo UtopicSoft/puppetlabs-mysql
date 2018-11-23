@@ -6,6 +6,12 @@
 class mysql::client::install {
 
   if $mysql::client::package_manage {
+  
+    #+
+    #+ @name: mysql_client
+    #+ @type: package
+    #+ @description: MySQL client package.
+    #+
 
     package { 'mysql_client':
       ensure          => $mysql::client::package_ensure,
