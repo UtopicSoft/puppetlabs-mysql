@@ -27,24 +27,7 @@
             },
             {
                 "operating_system": "Solaris",
-                "versions": [ 
-                    {
-                        "version": "8.0.12",
-                        "is_tested": true
-                    },
-                    {
-                        "version": "8.0.11",
-                        "is_tested": true
-                    },                    
-                    {
-                        "version": "5.7.24",
-                        "is_tested": true
-                    },
-                    {
-                        "version": "5.7.22", 
-                        "is_tested": false
-                    }
-                ]
+                "versions": ["8.0.12", "8.0.11", "5.7.24, "5.7.22"]
             }
         ]
     },
