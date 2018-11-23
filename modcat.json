@@ -1,0 +1,97 @@
+[
+    {
+        "name": "product_owner",
+        "description": "product owner",
+        "value": {
+            "full_name": "Ian Wilde",
+            "email": "iwilde@wf.com",
+            "team_link": null
+        }
+    },
+    {
+        "name": "capabilities",
+        "description": "upgrade, downgrade, install, uninstall",
+        "value": [ "upgrade", "install", "uninstall", "start-service", "stop-service" ]
+    },
+    {
+        "name": "product_versions",
+        "description": "supported product versions",
+        "value": [
+            {
+                "operating_system": "windows",
+                "versions": [ 
+                    {
+                        "version": "8.0.12",
+                        "is_tested": true
+                    },
+                    {
+                        "version": "5.7.24",
+                        "is_tested": true
+                    },
+                    {
+                        "version": "5.7.22", 
+                        "is_tested": false
+                    }
+                ]
+            },
+            {
+                "operating_system": "RedHat",
+                "versions": [ 
+                    {
+                        "version": "8.0.12",
+                        "is_tested": true
+                    },
+                    {
+                        "version": "5.7.24",
+                        "is_tested": true
+                    },
+                    {
+                        "version": "5.7.22", 
+                        "is_tested": false
+                    }
+                ]
+            },
+            {
+                "operating_system": "Solaris",
+                "versions": [ 
+                    {
+                        "version": "8.0.12",
+                        "is_tested": true
+                    },
+                    {
+                        "version": "8.0.11",
+                        "is_tested": true
+                    },                    
+                    {
+                        "version": "5.7.24",
+                        "is_tested": true
+                    },
+                    {
+                        "version": "5.7.22", 
+                        "is_tested": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "last_review_date",
+        "description": "date of last module review",
+        "value":  "2018-10-12"
+    },
+    {
+        "name": "is_deprecated",
+        "description": "Denoted whether the module can be used for new deployments",
+        "value": false
+    },
+    {
+        "name": "is_orderable",
+        "description": "Property unknown to MC: is the product orderable?",
+        "value": true
+    },
+    {
+        "name": "stacks",
+        "description": "Property unknown to MC: list of stacks this module is part of",
+        "value": [ "mysql", "lamp", "lnmp" ]
+    }
+]
