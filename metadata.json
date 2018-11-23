@@ -4,6 +4,7 @@
   "author": "puppetlabs",
   "summary": "Installs, configures, and manages the MySQL service.",
   "license": "Apache-2.0",
+  "tags": [ "mysql", "database", "db" ],
   "source": "git://github.com/puppetlabs/puppetlabs-mysql.git",
   "project_page": "http://github.com/puppetlabs/puppetlabs-mysql",
   "issues_url": "https://tickets.puppetlabs.com/browse/MODULES",
