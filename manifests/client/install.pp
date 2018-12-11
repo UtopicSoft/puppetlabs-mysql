@@ -10,7 +10,7 @@ class mysql::client::install {
     #+
     #+ @name: mysql_client
     #+ @type: package
-    #+ @description: MySQL client package.
+    #+ @desc: Manages MySQL client package.
     #+
 
     package { 'mysql_client':
