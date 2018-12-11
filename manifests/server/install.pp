@@ -10,7 +10,7 @@ class mysql::server::install {
     #+
     #+ @name: mysql-server
     #+ @type: package
-    #+ @description: MySQL server package.
+    #+ @desc: managed **MySQL** server package.
     #+
     package { 'mysql-server':
       ensure          => $mysql::server::package_ensure,
