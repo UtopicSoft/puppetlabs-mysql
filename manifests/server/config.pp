@@ -33,6 +33,9 @@ class mysql::server::config {
     }
   }
 
+  #+ @name: /etc/my.cnf
+  #+ @type: file
+  #+ @desc: MySQL configuration file. Fully managed by this module.
   if $mysql::server::manage_config_file  {
     file { 'mysql-config-file':
       path                    => $mysql::server::config_file,
