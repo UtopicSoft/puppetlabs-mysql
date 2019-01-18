@@ -9,6 +9,11 @@
 #   Source path for the mysqltuner package.
 # @param tuner_location
 #   Destination for the mysqltuner package.
+
+#+ @name: /usr/local/bin/mysqltuner
+#+ @type: file
+#+ @desc: mysqltuner binary is fully managed by this module.
+#  
 class mysql::server::mysqltuner(
   $ensure  = 'present',
   $version = 'v1.3.0',
